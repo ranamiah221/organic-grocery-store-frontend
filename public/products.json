@@ -1,0 +1,92 @@
+[
+    {
+      "product_id": 101,
+      "product_name": "Organic Apples",
+      "product_image": "https://images.unsplash.com/photo-1574226516831-e1dff420485d",
+      "rating": 4.8,
+      "price": 3.99,
+      "description": "Fresh, crisp organic apples, perfect for snacking and baking.",
+      "category": "Fruits"
+    },
+    {
+      "product_id": 102,
+      "product_name": "Bananas",
+      "product_image": "https://images.unsplash.com/photo-1574226516831-e1dff420485d",
+      "rating": 4.7,
+      "price": 1.29,
+      "description": "Naturally ripened bananas, rich in potassium and flavor.",
+      "category": "Fruits"
+    },
+    {
+      "product_id": 201,
+      "product_name": "Kale",
+      "product_image": "https://images.unsplash.com/photo-1615485293040-8d5de3f0c26e",
+      "rating": 4.5,
+      "price": 2.49,
+      "description": "Nutritious organic kale, perfect for smoothies and salads.",
+      "category": "Vegetables"
+    },
+    {
+      "product_id": 202,
+      "product_name": "Carrots",
+      "product_image": "https://images.unsplash.com/photo-1587316745621-3757c7076f22",
+      "rating": 4.6,
+      "price": 0.99,
+      "description": "Crunchy organic carrots, ideal for snacks and cooking.",
+      "category": "Vegetables"
+    },
+    {
+      "product_id": 301,
+      "product_name": "Almond Milk",
+      "product_image": "https://images.unsplash.com/photo-1580467080943-3d22d8d3b6ff",
+      "rating": 4.9,
+      "price": 3.49,
+      "description": "Creamy almond milk, perfect for coffee, cereal, or smoothies.",
+      "category": "Dairy"
+    },
+    {
+      "product_id": 302,
+      "product_name": "Greek Yogurt",
+      "product_image": "https://images.unsplash.com/photo-1564767609342-620cb19b2357",
+      "rating": 4.8,
+      "price": 4.99,
+      "description": "Rich and creamy Greek yogurt with live probiotics.",
+      "category": "Dairy"
+    },
+    {
+      "product_id": 401,
+      "product_name": "Whole Grain Bread",
+      "product_image": "https://images.unsplash.com/photo-1604908177886-248c42bca3d3",
+      "rating": 4.7,
+      "price": 4.29,
+      "description": "Freshly baked whole grain bread, rich in fiber and flavor.",
+      "category": "Bakery"
+    },
+    {
+      "product_id": 402,
+      "product_name": "Gluten-Free Muffins",
+      "product_image": "https://images.unsplash.com/photo-1563805042-7684f1a2e6c2",
+      "rating": 4.6,
+      "price": 5.99,
+      "description": "Delicious gluten-free muffins, available in various flavors.",
+      "category": "Bakery"
+    },
+    {
+      "product_id": 501,
+      "product_name": "Cold-Pressed Orange Juice",
+      "product_image": "https://images.unsplash.com/photo-1578382111167-f6a53a6a6e78",
+      "rating": 4.9,
+      "price": 6.99,
+      "description": "Refreshing cold-pressed orange juice, packed with vitamins.",
+      "category": "Beverages"
+    },
+    {
+      "product_id": 502,
+      "product_name": "Herbal Tea",
+      "product_image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+      "rating": 4.8,
+      "price": 4.49,
+      "description": "A soothing blend of organic herbs for a calming tea experience.",
+      "category": "Beverages"
+    }
+  ]
