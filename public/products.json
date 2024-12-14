@@ -88,5 +88,125 @@
       "price": 4.49,
       "description": "A soothing blend of organic herbs for a calming tea experience.",
       "category": "Beverages"
-    }
+    },
+     {
+        "product_name": "Golden Wildflower Honey",
+        "product_image": "https://images.unsplash.com/photo-1601072071735-d5d6880e1f09",
+        "rating": 4.9,
+        "price": 6.99,
+        "description": "Pure, raw honey with a rich, floral flavor, perfect for sweetening your day.",
+        "category": "Sweet"
+      },
+      {
+        "product_name": "Organic Dark Chocolate",
+        "product_image": "https://images.unsplash.com/photo-1614697806970-3d98c28193ab",
+        "rating": 4.8,
+        "price": 5.49,
+        "description": "Rich and creamy dark chocolate, made with 100% organic cacao.",
+        "category": "Sweet"
+      },
+      {
+        "product_name": "Premium Cheesecake",
+        "product_image": "https://images.unsplash.com/photo-1612233494244-5b1a0ec60cb5",
+        "rating": 4.7,
+        "price": 15.99,
+        "description": "Deliciously creamy cheesecake with a buttery graham cracker crust.",
+        "category": "Sweet"
+      },
+      {
+        "product_name": "Freshly Baked Brownies",
+        "product_image": "https://images.unsplash.com/photo-1591994840417-b5d2c5c14f98",
+        "rating": 4.8,
+        "price": 7.49,
+        "description": "Moist, fudgy brownies made with premium cocoa and real butter.",
+        "category": "Sweet"
+      },
+      {
+        "product_name": "Assorted Macarons",
+        "product_image": "https://images.unsplash.com/photo-1551887374-972d4bd45b38",
+        "rating": 4.9,
+        "price": 12.99,
+        "description": "A colorful selection of sweet macarons in various delightful flavors.",
+        "category": "Sweet"
+      },
+      {
+        "product_name": "Grass-Fed Beef",
+        "product_image": "https://images.unsplash.com/photo-1575936123452-b67c3203c357",
+        "rating": 4.9,
+        "price": 12.99,
+        "description": "Juicy, high-quality beef sourced from grass-fed cattle for the best taste.",
+        "category": "Popular"
+      },
+      {
+        "product_name": "Wild-Caught Salmon",
+        "product_image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963",
+        "rating": 4.8,
+        "price": 14.99,
+        "description": "Premium salmon fillets, sustainably sourced and rich in omega-3s.",
+        "category": "Popular"
+      },
+      {
+        "product_name": "Fresh Organic Apples",
+        "product_image": "https://images.unsplash.com/photo-1574226516831-e1dff420485d",
+        "rating": 4.8,
+        "price": 3.99,
+        "description": "Perfectly ripe organic apples, ideal for snacking, baking, or juicing.",
+        "category": "Popular"
+      },
+      {
+        "product_name": "Vitamin-Packed Oranges",
+        "product_image": "https://images.unsplash.com/photo-1615485293040-8d5de3f0c26e",
+        "rating": 4.9,
+        "price": 4.29,
+        "description": "Juicy, naturally ripened oranges, loaded with vitamin C for a refreshing treat.",
+        "category": "Popular"
+      },
+      {
+        "product_name": "Healthy Nut Mix",
+        "product_image": "https://images.unsplash.com/photo-1585238342020-d73ddf95da11",
+        "rating": 4.7,
+        "price": 9.99,
+        "description": "A delicious blend of almonds, cashews, and walnuts, packed with nutrients.",
+        "category": "Popular"
+      },
+      {
+        "product_name": "Golden Wildflower Honey",
+        "product_image": "https://images.unsplash.com/photo-1601072071735-d5d6880e1f09",
+        "rating": 4.9,
+        "price": 6.99,
+        "description": "Pure, raw honey with a rich, floral flavor, perfect for sweetening your day.",
+        "category": "Featured"
+      },
+      {
+        "product_name": "Organic Dark Chocolate",
+        "product_image": "https://images.unsplash.com/photo-1614697806970-3d98c28193ab",
+        "rating": 4.8,
+        "price": 5.49,
+        "description": "Rich and creamy dark chocolate, made with 100% organic cacao.",
+        "category": "Featured"
+      },
+      {
+        "product_name": "Wild-Caught Salmon",
+        "product_image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963",
+        "rating": 4.8,
+        "price": 14.99,
+        "description": "Premium salmon fillets, sustainably sourced and rich in omega-3s.",
+        "category": "Featured"
+      },
+      {
+        "product_name": "Fresh Organic Apples",
+        "product_image": "https://images.unsplash.com/photo-1574226516831-e1dff420485d",
+        "rating": 4.8,
+        "price": 3.99,
+        "description": "Perfectly ripe organic apples, ideal for snacking, baking, or juicing.",
+        "category": "Featured"
+      },
+      {
+        "product_name": "Vitamin-Packed Oranges",
+        "product_image": "https://images.unsplash.com/photo-1615485293040-8d5de3f0c26e",
+        "rating": 4.9,
+        "price": 4.29,
+        "description": "Juicy, naturally ripened oranges, loaded with vitamin C for a refreshing treat.",
+        "category": "Featured"
+      }
   ]

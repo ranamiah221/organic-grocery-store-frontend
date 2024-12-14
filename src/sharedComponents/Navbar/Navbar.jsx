@@ -45,6 +45,26 @@ const Navbar = () => {
               About
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/add-product"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-green-500 underline" : ""
+              }
+            >
+              Add Product
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/products"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-green-500 underline" : ""
+              }
+            >
+              Products
+            </NavLink>
+          </li>
           </ul>
         </div>
         <img src={logo} alt="" />
@@ -69,6 +89,26 @@ const Navbar = () => {
               }
             >
               About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/add-product"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-green-500 underline" : ""
+              }
+            >
+              Add Product
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/products"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-green-500 underline" : ""
+              }
+            >
+              Products
             </NavLink>
           </li>
         </ul>
