@@ -1,89 +1,89 @@
 [
     {
-      "product_id": 101,
+     
       "product_name": "Organic Apples",
-      "product_image": "https://images.unsplash.com/photo-1574226516831-e1dff420485d",
+      "product_image": "https://i.ibb.co.com/zfwf1w6/lots-red-apples-tasty-juicy-260nw-2341320331.webp",
       "rating": 4.8,
       "price": 3.99,
       "description": "Fresh, crisp organic apples, perfect for snacking and baking.",
       "category": "Fruits"
     },
     {
-      "product_id": 102,
+      
       "product_name": "Bananas",
-      "product_image": "https://images.unsplash.com/photo-1574226516831-e1dff420485d",
+      "product_image": "https://i.ibb.co.com/0Gfc7Pc/banana-bunch-fruit-clipping-path-600nw-2474380581.webp",
       "rating": 4.7,
       "price": 1.29,
       "description": "Naturally ripened bananas, rich in potassium and flavor.",
       "category": "Fruits"
     },
     {
-      "product_id": 201,
+      
       "product_name": "Kale",
-      "product_image": "https://images.unsplash.com/photo-1615485293040-8d5de3f0c26e",
+      "product_image": "https://i.ibb.co.com/khPDz8V/istockphoto-135091129-612x612.jpg",
       "rating": 4.5,
       "price": 2.49,
       "description": "Nutritious organic kale, perfect for smoothies and salads.",
       "category": "Vegetables"
     },
     {
-      "product_id": 202,
+      
       "product_name": "Carrots",
-      "product_image": "https://images.unsplash.com/photo-1587316745621-3757c7076f22",
+      "product_image": "https://i.ibb.co.com/4PSR4fP/istockphoto-1015995028-612x612.jpg",
       "rating": 4.6,
       "price": 0.99,
       "description": "Crunchy organic carrots, ideal for snacks and cooking.",
       "category": "Vegetables"
     },
     {
-      "product_id": 301,
+     
       "product_name": "Almond Milk",
-      "product_image": "https://images.unsplash.com/photo-1580467080943-3d22d8d3b6ff",
+      "product_image": "https://i.ibb.co.com/K5TfKwJ/istockphoto-1272353187-612x612.jpg",
       "rating": 4.9,
       "price": 3.49,
       "description": "Creamy almond milk, perfect for coffee, cereal, or smoothies.",
       "category": "Dairy"
     },
     {
-      "product_id": 302,
+      
       "product_name": "Greek Yogurt",
-      "product_image": "https://images.unsplash.com/photo-1564767609342-620cb19b2357",
+      "product_image": "https://i.ibb.co.com/SnrBxJq/greek-yoghurt-in-bowl.jpg",
       "rating": 4.8,
       "price": 4.99,
       "description": "Rich and creamy Greek yogurt with live probiotics.",
       "category": "Dairy"
     },
     {
-      "product_id": 401,
+     
       "product_name": "Whole Grain Bread",
-      "product_image": "https://images.unsplash.com/photo-1604908177886-248c42bca3d3",
+      "product_image": "https://i.ibb.co.com/X5X4vkr/istockphoto-474679296-612x612.jpg",
       "rating": 4.7,
       "price": 4.29,
       "description": "Freshly baked whole grain bread, rich in fiber and flavor.",
       "category": "Bakery"
     },
     {
-      "product_id": 402,
+      
       "product_name": "Gluten-Free Muffins",
-      "product_image": "https://images.unsplash.com/photo-1563805042-7684f1a2e6c2",
+      "product_image": "https://i.ibb.co.com/fnVJTkq/gluten-free-blueberry-muffins-1.jpg",
       "rating": 4.6,
       "price": 5.99,
       "description": "Delicious gluten-free muffins, available in various flavors.",
       "category": "Bakery"
     },
     {
-      "product_id": 501,
+    
       "product_name": "Cold-Pressed Orange Juice",
-      "product_image": "https://images.unsplash.com/photo-1578382111167-f6a53a6a6e78",
+      "product_image": "https://i.ibb.co.com/jTYM54n/istockphoto-1400831765-612x612.jpg",
       "rating": 4.9,
       "price": 6.99,
       "description": "Refreshing cold-pressed orange juice, packed with vitamins.",
       "category": "Beverages"
     },
     {
-      "product_id": 502,
+     
       "product_name": "Herbal Tea",
-      "product_image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+      "product_image": "https://i.ibb.co.com/mX7Kjw1/istockphoto-597657478-612x612.jpg",
       "rating": 4.8,
       "price": 4.49,
       "description": "A soothing blend of organic herbs for a calming tea experience.",
@@ -91,7 +91,7 @@
     },
      {
         "product_name": "Golden Wildflower Honey",
-        "product_image": "https://images.unsplash.com/photo-1601072071735-d5d6880e1f09",
+        "product_image": "https://i.ibb.co.com/2SXVNzM/cup-natural-honey-combs-against-260nw-2154255225.webp",
         "rating": 4.9,
         "price": 6.99,
         "description": "Pure, raw honey with a rich, floral flavor, perfect for sweetening your day.",
@@ -99,7 +99,7 @@
       },
       {
         "product_name": "Organic Dark Chocolate",
-        "product_image": "https://images.unsplash.com/photo-1614697806970-3d98c28193ab",
+        "product_image": "https://i.ibb.co.com/n7SM15f/istockphoto-1296362170-612x612.jpg",
         "rating": 4.8,
         "price": 5.49,
         "description": "Rich and creamy dark chocolate, made with 100% organic cacao.",
@@ -107,7 +107,7 @@
       },
       {
         "product_name": "Premium Cheesecake",
-        "product_image": "https://images.unsplash.com/photo-1612233494244-5b1a0ec60cb5",
+        "product_image": "https://i.ibb.co.com/hWzDyh0/360-F-145708901-j-O47p-CUoy-O4g-O9d-VHIXe-Qyc1oydys-Y2-S.jpg",
         "rating": 4.7,
         "price": 15.99,
         "description": "Deliciously creamy cheesecake with a buttery graham cracker crust.",
@@ -115,7 +115,7 @@
       },
       {
         "product_name": "Freshly Baked Brownies",
-        "product_image": "https://images.unsplash.com/photo-1591994840417-b5d2c5c14f98",
+        "product_image": "https://i.ibb.co.com/wBDhwTY/istockphoto-514628322-612x612.jpg",
         "rating": 4.8,
         "price": 7.49,
         "description": "Moist, fudgy brownies made with premium cocoa and real butter.",
@@ -123,7 +123,7 @@
       },
       {
         "product_name": "Assorted Macarons",
-        "product_image": "https://images.unsplash.com/photo-1551887374-972d4bd45b38",
+        "product_image": "https://i.ibb.co.com/7RsTrW9/pexels-photo-239578.webp",
         "rating": 4.9,
         "price": 12.99,
         "description": "A colorful selection of sweet macarons in various delightful flavors.",
@@ -131,7 +131,7 @@
       },
       {
         "product_name": "Grass-Fed Beef",
-        "product_image": "https://images.unsplash.com/photo-1575936123452-b67c3203c357",
+        "product_image": "https://i.ibb.co.com/vPdqGWH/istockphoto-1303042978-612x612.jpg",
         "rating": 4.9,
         "price": 12.99,
         "description": "Juicy, high-quality beef sourced from grass-fed cattle for the best taste.",
@@ -139,7 +139,7 @@
       },
       {
         "product_name": "Wild-Caught Salmon",
-        "product_image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963",
+        "product_image": "https://i.ibb.co.com/tYRyHZS/wheelbarrow-full-freshly-caught-salmon-260nw-2189093663.webp",
         "rating": 4.8,
         "price": 14.99,
         "description": "Premium salmon fillets, sustainably sourced and rich in omega-3s.",
@@ -147,7 +147,7 @@
       },
       {
         "product_name": "Fresh Organic Apples",
-        "product_image": "https://images.unsplash.com/photo-1574226516831-e1dff420485d",
+        "product_image": "https://i.ibb.co.com/zfwf1w6/lots-red-apples-tasty-juicy-260nw-2341320331.webp",
         "rating": 4.8,
         "price": 3.99,
         "description": "Perfectly ripe organic apples, ideal for snacking, baking, or juicing.",
@@ -155,7 +155,7 @@
       },
       {
         "product_name": "Vitamin-Packed Oranges",
-        "product_image": "https://images.unsplash.com/photo-1615485293040-8d5de3f0c26e",
+        "product_image": "https://i.ibb.co.com/jTYM54n/istockphoto-1400831765-612x612.jpg",
         "rating": 4.9,
         "price": 4.29,
         "description": "Juicy, naturally ripened oranges, loaded with vitamin C for a refreshing treat.",
@@ -163,7 +163,7 @@
       },
       {
         "product_name": "Healthy Nut Mix",
-        "product_image": "https://images.unsplash.com/photo-1585238342020-d73ddf95da11",
+        "product_image": "https://i.ibb.co.com/K5TfKwJ/istockphoto-1272353187-612x612.jpg",
         "rating": 4.7,
         "price": 9.99,
         "description": "A delicious blend of almonds, cashews, and walnuts, packed with nutrients.",
@@ -171,7 +171,7 @@
       },
       {
         "product_name": "Golden Wildflower Honey",
-        "product_image": "https://images.unsplash.com/photo-1601072071735-d5d6880e1f09",
+        "product_image": "https://i.ibb.co.com/2SXVNzM/cup-natural-honey-combs-against-260nw-2154255225.webp",
         "rating": 4.9,
         "price": 6.99,
         "description": "Pure, raw honey with a rich, floral flavor, perfect for sweetening your day.",
@@ -179,7 +179,7 @@
       },
       {
         "product_name": "Organic Dark Chocolate",
-        "product_image": "https://images.unsplash.com/photo-1614697806970-3d98c28193ab",
+        "product_image": "https://i.ibb.co.com/n7SM15f/istockphoto-1296362170-612x612.jpg",
         "rating": 4.8,
         "price": 5.49,
         "description": "Rich and creamy dark chocolate, made with 100% organic cacao.",
@@ -187,7 +187,7 @@
       },
       {
         "product_name": "Wild-Caught Salmon",
-        "product_image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963",
+        "product_image": "https://i.ibb.co.com/tYRyHZS/wheelbarrow-full-freshly-caught-salmon-260nw-2189093663.webp",
         "rating": 4.8,
         "price": 14.99,
         "description": "Premium salmon fillets, sustainably sourced and rich in omega-3s.",
@@ -195,7 +195,7 @@
       },
       {
         "product_name": "Fresh Organic Apples",
-        "product_image": "https://images.unsplash.com/photo-1574226516831-e1dff420485d",
+        "product_image": "https://i.ibb.co.com/zfwf1w6/lots-red-apples-tasty-juicy-260nw-2341320331.webp",
         "rating": 4.8,
         "price": 3.99,
         "description": "Perfectly ripe organic apples, ideal for snacking, baking, or juicing.",
@@ -203,7 +203,7 @@
       },
       {
         "product_name": "Vitamin-Packed Oranges",
-        "product_image": "https://images.unsplash.com/photo-1615485293040-8d5de3f0c26e",
+        "product_image": "https://i.ibb.co.com/jTYM54n/istockphoto-1400831765-612x612.jpg",
         "rating": 4.9,
         "price": 4.29,
         "description": "Juicy, naturally ripened oranges, loaded with vitamin C for a refreshing treat.",
