@@ -10,7 +10,7 @@ const Products = () => {
              <CoverPage title={'All Products'}></CoverPage>
             <div className='grid grid-cols-3 gap-5 my-10'>
             {
-                products.map((product, idx)=> <ProductCategory key={idx} product={product}></ProductCategory>)
+                products.map((product)=> <ProductCategory key={product._id} product={product}></ProductCategory>)
              }
             </div>
         </section>

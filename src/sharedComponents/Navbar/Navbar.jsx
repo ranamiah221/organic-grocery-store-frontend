@@ -1,6 +1,20 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from '../../assets/images/logo.svg'
+import { useContext } from "react";
+import { AuthContext } from "../../components/Provider/AuthProvider/AuthProvider";
+import Swal from "sweetalert2";
+
 const Navbar = () => {
+  const {user, logOut}=useContext(AuthContext);
+  const handleLogout=()=>{
+    logOut()
+    .then(()=>{
+    Swal.fire("Logout Successful!");
+    })
+    .catch((err)=>{
+      Swal.fire(`${err.message}`);
+    })
+  }
   return (
     <div className="navbar bg-base-200 shadow-lg">
       <div className="navbar-start">
@@ -114,7 +128,11 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Login</a>
+        {
+          user ? <><p className="uppercase text-xl font-bold p-2 mr-2 border border-black rounded">{user.email.slice(0,2)}</p>
+           <button onClick={handleLogout} className="btn btn-outline border-0 border-b-4 border-blue-400 hover:bg-blue-600">Log out</button></>
+           :<Link to={'/login'} className="btn btn-outline border-0 border-b-4 border-blue-400 hover:bg-blue-600">Login</Link>
+        }
       </div>
     </div>
   );
