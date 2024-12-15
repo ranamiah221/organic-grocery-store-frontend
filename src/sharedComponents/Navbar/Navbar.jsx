@@ -79,6 +79,18 @@ const Navbar = () => {
               Products
             </NavLink>
           </li>
+          {
+            user ? <li>
+            <NavLink
+              to="/my-cart"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-green-500 underline" : ""
+              }
+            >
+             My Cart
+            </NavLink>
+          </li> : ''
+          }
           </ul>
         </div>
         <img src={logo} alt="" />
@@ -125,6 +137,18 @@ const Navbar = () => {
               Products
             </NavLink>
           </li>
+          {
+            user ? <li>
+            <NavLink
+              to="/my-cart"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-green-500 underline" : ""
+              }
+            >
+             My Cart
+            </NavLink>
+          </li> : ' '
+          }
         </ul>
       </div>
       <div className="navbar-end">

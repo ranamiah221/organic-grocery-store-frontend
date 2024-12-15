@@ -9,6 +9,7 @@ import ProductDetails from '../components/ProductDetails/ProductDetails';
 import Login from '../pages/Login/Login';
 import SignUp from '../pages/SignUp/SignUp';
 import PrivateRoute from './PrivateRoute';
+import MyCart from '../pages/MyCart/MyCart';
 
 const Routes = createBrowserRouter([
     {
@@ -43,6 +44,12 @@ const Routes = createBrowserRouter([
             {
                 path:'/signup',
                 element:<SignUp></SignUp>
+            }
+            ,
+            {
+                path:'/my-cart',
+                element:<MyCart></MyCart>,
+                
             }
 
 

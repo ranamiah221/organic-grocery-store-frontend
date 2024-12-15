@@ -5,14 +5,17 @@ import { Link } from "react-router-dom";
 
 const ProductCategory = ({ product }) => {
  
-  const {_id,product_name, product_image, rating, price } = product;
+  const {_id,product_name, product_image, rating,category, price } = product;
   return (
     <div className="card bg-base-100 w-full p-5 shadow-sm border-2">
       <div className="">
       <img className="h-[200px] w-full mb-5" src={product_image} alt="Shoes" />
       </div>      
       
+        <div className="flex justify-between items-center ">
         <h2 className="text-2xl font-bold">{product_name}</h2>
+        <p className="border rounded-2xl px-3 bg-cyan-500 text-white font-medium">{category}</p>
+        </div>
         <p className="text-base">
           Price: <span className="font-bold">${price}</span>
         </p>

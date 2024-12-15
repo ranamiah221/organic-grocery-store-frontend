@@ -1,16 +1,38 @@
 import { useLoaderData } from "react-router-dom";
-
 import { Rating } from "@smastrom/react-rating";
+import { useContext } from "react";
+import { AuthContext } from "../Provider/AuthProvider/AuthProvider";
+import Swal from "sweetalert2";
 
 const ProductDetails = () => {
+  const {user}= useContext(AuthContext)
+ const email= user.email;
   const product = useLoaderData();
-  const { product_name, product_image,description, rating, price } = product;
+  const { product_name, product_image,description, rating, price, category } = product;
+ 
   const handleCart =()=>{
-    
+    const cart = {email, product_name, product_image, rating, description, rating,price, category}
+    fetch('http://localhost:8000/carts',{
+      method:'POST',
+      headers:{
+        'content-type':'application/json'
+      },
+      body: JSON.stringify(cart)
+    })
+    .then(res => res.json())
+    .then(data =>{
+      if(data.insertedId){
+        Swal.fire({
+          title: "Good job!",
+          text: "Cart added successfully",
+          icon: "success"
+        });
+      }
+    })
   }
   return (
     <>
-    <div className="flex items-center gap-5 bg-base-100 shadow-xl mt-3">
+    <div className="flex items-center gap-5 bg-base-100 shadow-xl my-5">
       <div className="w-1/2">
       <img
           src={product_image}

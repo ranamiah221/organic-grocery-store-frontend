@@ -18,7 +18,7 @@ const SignUp = () => {
           createUser(email, password)
           .then(result=>{
             const user =result.user;
-            Swal.fire("User Login Successful!");
+            Swal.fire("Create Successful!");
             navigate('/login')
           })
           .catch(error=>{
