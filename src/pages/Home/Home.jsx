@@ -2,6 +2,7 @@
 import BannerAd from "../../components/BannerAd/BannerAd";
 import Banner from "./Banner";
 import Featured from "./Featured";
+import LookingFor from "./LookingFor";
 import Popular from "./Popular";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <BannerAd></BannerAd>
             {/* Popular product */}
             <Popular></Popular>
+            <LookingFor></LookingFor>
 
         </div>
     );

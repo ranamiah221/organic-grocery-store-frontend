@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../components/Provider/AuthProvider/AuthProvider";
 import CoverPage from "../../components/CoverPage/CoverPage";
 import TableRow from "../../components/TableRow/TableRow";
+import Swal from "sweetalert2";
 
 const MyCart = () => {
   const { user } = useContext(AuthContext);
@@ -14,10 +15,33 @@ const MyCart = () => {
       });
   }, [user]);
 
+  const handleDeleteCart = (id) => {
+    fetch(`http://localhost:8000/carts/${id}`, {
+      method: "DELETE",
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if(data.deletedCount > 0) {
+          Swal.fire({
+            title: "Good job!",
+            text: "Cart Deleted successfully",
+            icon: "success",
+          });
+          const remaining = carts.filter(cart => cart._id !==id)
+          setCarts(remaining)
+        }
+      });
+  };
+
   return (
     <div>
       <CoverPage title={"My Carts"}></CoverPage>
-      <div className="overflow-x-auto my-10">
+      {
+        carts.length === 0 ? 
+        <div className="flex justify-center items-center h-52">
+                <h1 className="text-4xl font-bold">No Cart Found</h1>
+        </div>
+        : <div className="overflow-x-auto my-10">
         <table className="table">
           {/* head */}
           <thead>
@@ -31,12 +55,13 @@ const MyCart = () => {
           </thead>
           <tbody>
             {
-                carts.map(cart=><TableRow key={cart._id} cart={cart}></TableRow>)
+                carts.map(cart=><TableRow key={cart._id} cart={cart} handleDeleteCart={handleDeleteCart}></TableRow>)
             }
             
           </tbody> 
         </table>
       </div>
+      }
     </div>
   );
 };

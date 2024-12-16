@@ -59,7 +59,8 @@ const Navbar = () => {
               About
             </NavLink>
           </li>
-          <li>
+          {
+            user? <li>
             <NavLink
               to="/add-product"
               className={({ isActive, isPending }) =>
@@ -68,7 +69,8 @@ const Navbar = () => {
             >
               Add Product
             </NavLink>
-          </li>
+          </li> : ''
+          }
           <li>
             <NavLink
               to="/products"
@@ -117,7 +119,8 @@ const Navbar = () => {
               About
             </NavLink>
           </li>
-          <li>
+          {
+            user? <li>
             <NavLink
               to="/add-product"
               className={({ isActive, isPending }) =>
@@ -126,7 +129,8 @@ const Navbar = () => {
             >
               Add Product
             </NavLink>
-          </li>
+          </li> : ''
+          }
           <li>
             <NavLink
               to="/products"
